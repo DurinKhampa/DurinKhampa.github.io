@@ -1,0 +1,39 @@
+body
+{
+    background-color: #231534;
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+header
+{
+    background: #304518;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#post
+{
+    padding: 1em;
+}
+
+footer
+{
+    background: #304518;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
