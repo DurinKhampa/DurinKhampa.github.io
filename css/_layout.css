@@ -1,0 +1,57 @@
+.header_title,
+.footer_text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container
+{
+    padding-top: 2%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.article_oneColumnText
+{
+    padding-top: 5%;
+}
+
+.article_twoColumnText
+{
+    padding-top: 5%;
+    display: flex;
+    float: left;
+    text-align: left;
+    padding: 20px;
+}
+
+.article_twoColumnText
+{
+    background-color: #1E1301;
+    font-weight: bold;
+    width: 15%;
+}
+
+.column
+{
+    float: left;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.column:first-of-type
+{
+    background-color: #1E1301;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    width: 15%;
+}
+
+#aptitudes
+{
+    text-align: left;
+    font-size: 20px;
+}
